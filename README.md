@@ -1,2 +1,19 @@
-# neuralqa_cml
-Deploying NeuralQA on CML
+# NeuralQA Demo: Question Answering with BERT Models
+
+
+> NeuralQA provides a visual interface for end-to-end question answering (passage retrieval, query expansion, document reading, model explanation), on large datasets.
+Learn more on [Github](https://github.com/victordibia/neuralqa).
+
+<img width="100%" src="docs/images/manual.jpg">
+
+
+# Launch the Application on CML
+
+
+```shell
+python3 launch.py
+```
+
+The script above will create a CML Application and serve the NeuralQA user interface.
+
+
