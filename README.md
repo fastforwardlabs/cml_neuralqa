@@ -16,6 +16,6 @@ This repository provides sample code on how to deploy NeuralQA on Cloudera Machi
 python3 launch.py
 ```
 
-The script above will create a CML Application and serve the NeuralQA user interface.
+Thats it! The script above will create a CML Application and provide a link to the NeuralQA user interface (using default configurations).
 
 
