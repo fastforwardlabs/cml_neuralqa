@@ -1,1 +1,1 @@
-!neuralqa ui - -port $CDSW_READONLY_PORT
+!neuralqa ui --port $CDSW_READONLY_PORT
