@@ -14,10 +14,6 @@ This will clone the repository to your CML workbench session.
 
 > Note: NeuralQA depends on several libraries (Tensorflow, Pytorch, Transformers etc). A minimum of 4GB memory instance is recommended to run this template.
 
-Run the `launch.py` script in the interactive CML python view or via the terminal.
+Run the `launch.py` script in the interactive CML python view.
 
-```shell
-python3 launch.py
-```
-
-Thats it! The script above will create a CML Application and provide a link to the NeuralQA user interface (using default configurations).
+Thats it! The `launch.py` script will create a CML Application and provide a link to the NeuralQA user interface (using default configurations).
