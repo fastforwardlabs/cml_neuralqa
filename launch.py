@@ -5,15 +5,14 @@
 # =============================================================================
 #
 
-import numpy as np
-from cmlbootstrap import CMLBootstrap
-import datetime
-import time
-import os
-from IPython.display import Javascript, HTML
-
-
 !pip3  install -q -r requirements.txt
+from IPython.display import Javascript, HTML
+import os
+import time
+import datetime
+from cmlbootstrap import CMLBootstrap
+import numpy as np
+
 
 run_time_suffix = datetime.datetime.now()
 run_time_suffix = run_time_suffix.strftime("%d%m%Y%H%M%S")
