@@ -1,2 +1,2 @@
-neuralqa
 git+https://github.com/fastforwardlabs/cmlbootstrap#egg=cmlbootstrap
+neuralqa

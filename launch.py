@@ -5,14 +5,14 @@
 # =============================================================================
 #
 
-!pip3  install -r requirements.txt
-
-from IPython.display import Javascript, HTML
-import os
-import time
-import datetime
-from cmlbootstrap import CMLBootstrap
 import numpy as np
+from cmlbootstrap import CMLBootstrap
+import datetime
+import time
+import os
+from IPython.display import Javascript, HTML
+!pip3  install - q - r requirements.txt
+
 run_time_suffix = datetime.datetime.now()
 run_time_suffix = run_time_suffix.strftime("%d%m%Y%H%M%S")
 
@@ -41,7 +41,6 @@ user_obj = {"id": user_details["id"], "username": USERNAME,
 project_details = cml.get_project({})
 project_id = project_details["id"]
 
-  
 
 # Create model build script
 cdsw_script = """#!/bin/bash
