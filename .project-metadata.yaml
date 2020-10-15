@@ -6,11 +6,11 @@ prototype_version: 1.0
 date: "2020-09-29"
 api_version: 1
 
-environment_variables:
-  AWS_ACCESS_KEY:
-    default: "SUPER AWESOME AWS KEY"
-    description: "Access Key ID for accessing S3 bucket"
-    prompt_user: true
+# environment_variables:
+#   AWS_ACCESS_KEY:
+#     default: "SUPER AWESOME AWS KEY"
+#     description: "Access Key ID for accessing S3 bucket"
+#     prompt_user: true
 
 tasks:
   - type: create_job
