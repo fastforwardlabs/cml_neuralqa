@@ -32,7 +32,9 @@ tasks:
   - type: start_application
     name: Application to serve NeuralQA UI
     subdomain: neuralqa
-    script: app.py
+    script: app.py 
+    cpu: 2
+    memory: 4
     environment_variables:
       TASK_TYPE: START_APPLICATION
     kernel: python3
