@@ -30,6 +30,7 @@ tasks:
   #     Running the job to install dependencies.
 
   - type: start_application
+    short_summary: Create a web application with the NeuralQA library. Note that this prototype requires a minimum of 2 CPUs and 4GB memory.
     name: NeuralQA UI
     subdomain: neuralqa
     description: Create a web application with the NeuralQA library. Note that this prototype requires a minimum of 2 CPUs and 4GB memory.
