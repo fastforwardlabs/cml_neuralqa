@@ -38,6 +38,7 @@ tasks:
     script: app.py 
     cpu: 2
     memory: 4
+    memory: 5
     environment_variables:
       TASK_TYPE: START_APPLICATION
     kernel: python3
