@@ -6,28 +6,24 @@ prototype_version: 1.0
 date: "2020-09-29"
 api_version: 1
 
-# environment_variables:
-#   AWS_ACCESS_KEY:
-#     default: "SUPER AWESOME AWS KEY"
-#     description: "Access Key ID for accessing S3 bucket"
-#     prompt_user: true
-
 tasks:
-  # - type: create_job
-  #   name: Install dependencies
-  #   entity_label: install_deps
-  #   script: install_deps.py
-  #   arguments: None
-  #   short_summary: Job to install dependencies and download training data.
-  #   environment:
-  #     TASK_TYPE: CREATE/RUN_JOB
-  #   kernel: python3
+  - type: create_job
+    name: Install dependencies
+    entity_label: install_deps
+    script: install_deps.py
+    arguments: None
+    cpu: 2
+    memory: 5
+    short_summary: Job to install dependencies and download training data.
+    environment:
+      TASK_TYPE: CREATE/RUN_JOB
+    kernel: python3
 
-  # - type: run_job
-  #   entity_label: install_deps
-  #   short_summary: Running install dependencies training job.
-  #   long_summary: >-
-  #     Running the job to install dependencies.
+  - type: run_job
+    entity_label: install_deps
+    short_summary: Running install dependencies training job.
+    long_summary: >-
+      Running the job to install dependencies.
 
   - type: start_application
     short_summary: Create a web application that serves the NeuralQA UI interface.
@@ -35,7 +31,7 @@ tasks:
     name: NeuralQA UI
     subdomain: neuralqa
     description: Create a web application with the NeuralQA library. Note that this prototype requires a minimum of 2 CPUs and 4GB memory.
-    script: app.py 
+    script: app.py
     cpu: 2
     memory: 5
     environment_variables:
