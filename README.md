@@ -1,7 +1,7 @@
 # NeuralQA Demo: Question Answering with BERT Models
 
 > NeuralQA provides a visual interface for end-to-end question answering (passage retrieval, query expansion, document reading, model explanation), on large datasets.
-> Learn more on [Github](https://github.com/victordibia/neuralqa) or from our blog series [FF14 Automated Question Answering](https://qa.fastforwardlabs.com/)
+> Learn more on [Github](https://github.com/victordibia/neuralqa) or from the blog series [FF14 Automated Question Answering](https://qa.fastforwardlabs.com/)
 
 This repository provides sample code on how to deploy NeuralQA on Cloudera Machine Learning (CML).
 
