@@ -27,10 +27,10 @@ tasks:
 
   - type: start_application
     short_summary: Create a web application that serves the NeuralQA UI interface.
-    long_summary: Create a web application that serves the NeuralQA UI interface. Note that this prototype requires a minimum of 2 CPUs and 4GB memory.
+    long_summary: Create a web application that serves the NeuralQA UI interface. Note that this prototype requires a minimum of 2 CPUs and 5GB memory.
     name: NeuralQA UI
     subdomain: neuralqa
-    description: Create a web application with the NeuralQA library. Note that this prototype requires a minimum of 2 CPUs and 4GB memory.
+    description: Create a web application with the NeuralQA library. Note that this prototype requires a minimum of 2 CPUs and 5GB memory.
     script: app.py
     cpu: 2
     memory: 5
