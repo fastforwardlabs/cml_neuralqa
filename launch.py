@@ -5,7 +5,6 @@
 # =============================================================================
 #
 
-!pip3 install --upgrade pip
 !pip3  install -q -r requirements.txt
 from IPython.display import Javascript, HTML
 import os
