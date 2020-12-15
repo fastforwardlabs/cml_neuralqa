@@ -12,8 +12,8 @@ This repository provides sample code on how to deploy NeuralQA on Cloudera Machi
 There are three ways to launch the NeuralQA prototype on CML:
 
 1. **From Prototype Catalog** - Navigate to the Prototype Catalog on a CML workspace, select the "Neural Question Answering" tile, click "Launch as Project", click "Configure Project"
-2. **As ML Prototype** - In a CML workspace, click "New Project", add a Project Name, select "ML Prototype" as the Initial Setup option, copy in the [repo URL](https://github.com/cloudera/CML_AMP_Neural_Question_Answering), click "Create Project", click "Configure Project"
-3. **Manual Setup** - To begin, create a new project on CML (use the Git tab) and provide the [link](https://github.com/cloudera/CML_AMP_Neural_Question_Answering) for this repository. This will clone the repository to your CML workbench session. Launch a Python3 Workbench Session with at least 5GB of memory and run the `launch.py` script which will create a CML Application and provide a link to the NeuralQA user interface (using default configurations).
+2. **As ML Prototype** - In a CML workspace, click "New Project", add a Project Name, select "ML Prototype" as the Initial Setup option, copy in the [repo URL](https://github.com/cloudera/CML_AMP_NeuralQA), click "Create Project", click "Configure Project"
+3. **Manual Setup** - In a CML workspace, click "New Project", add a Project Name, select "Git" as the Initial Setup option, copy in the [repo URL](https://github.com/cloudera/CML_AMP_NeuralQA). Then launch a Python3 Workbench Session with at least 5GB of memory and run the `launch.py` script which will create a CML Application and provide a link to the NeuralQA user interface (using default configurations).
 
 > Note: NeuralQA depends on several libraries (Tensorflow, Pytorch, Transformers etc). A minimum of 5GB memory instance is recommended to run this template.
 
