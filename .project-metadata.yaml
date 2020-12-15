@@ -13,7 +13,7 @@ tasks:
     script: install_deps.py
     arguments: None
     cpu: 2
-    memory: 5
+    memory: 6
     short_summary: Job to install dependencies and download training data.
     environment:
       TASK_TYPE: CREATE/RUN_JOB
@@ -33,7 +33,7 @@ tasks:
     description: Create a web application with the NeuralQA library. Note that this prototype requires a minimum of 2 CPUs and 5GB memory.
     script: app.py
     cpu: 2
-    memory: 5
+    memory: 6
     environment_variables:
       TASK_TYPE: START_APPLICATION
     kernel: python3
